@@ -1,0 +1,10 @@
+<h2>My message component!</h2>
+
+<div *ngIf="messages.length">
+	<h3>List of messages:</h3>
+	<ul>
+		<li *ngFor="let message of messages">
+			{{ message }}
+		</li>
+	</ul>
+</div>
